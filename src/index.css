@@ -60,6 +60,7 @@ body {
         cursor: pointer;
     }
 
+    /* not used for now */
     .key {
         font-size: .8rem;
         background-color: #edcfee;
@@ -76,6 +77,10 @@ body {
     .obj-width {
         max-width: 1200px;
         margin: auto;
+    }
+    
+    .box-shadow {
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
     }
     
     @media (max-width: 1200px) {
