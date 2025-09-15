@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Button } from "@heroui/react";
 import { IconMenuDeep } from "@tabler/icons-react";
 import Logo from "@assets/w-logo.png";
 import "./header.css";
@@ -25,7 +24,7 @@ const Header = () => {
     
     return (
         <header className="bg-[--main-color] fixed top-0 right-0 w-full z-[999]">
-            <div id="navbar" className="obj-width flex justify-between items-center h-[140px]">
+            <div className="obj-width flex justify-between items-center h-[120px]">
                 <a href="/">
                     <img src={Logo} className="w-44" />
                 </a>
@@ -40,7 +39,6 @@ const Header = () => {
                         </li>
                         
                     ))}
-                    <Button className="w-btn max-[699px]:c-btn">Join</Button>
                 </ul>
 
                 <IconMenuDeep 
