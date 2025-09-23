@@ -4,6 +4,11 @@ import { Button, Chip, Tab, Tabs } from "@heroui/react";
 import { getJobsType } from "src/core/utils/JobsType";
 import { getJobs, Jobs } from "src/core/utils/Jobs";
 import HeroImage from "@assets/hero-1.png";
+import T1 from "@assets/brand/t1.svg";
+import T2 from "@assets/brand/t2.svg";
+import T3 from "@assets/brand/t3.svg";
+import T4 from "@assets/brand/t4.svg";
+import T5 from "@assets/brand/t5.svg";
 import moment from "moment";
 import "./landing.css";
 
@@ -94,8 +99,8 @@ const LandingPage = () => {
             </section>
             
             <section className="sec-space obj-width">
-                <h2>Need something done?</h2>
-                <p>Most viewed and all-time top-selling services</p>
+                <h2>Kickstart your career journey</h2>
+                <p>Discover opportunities, build your profile, and grow with the right support</p>
                 
                 <div className="flex justify-between items-center flex-wrap">
                     <div className="w-[200px] max-[699px]:w-[40%]">
@@ -118,6 +123,19 @@ const LandingPage = () => {
                         <h3>Get career support</h3>
                         <p>If you need any help, don’t hesitate to contact us.</p>
                     </div>
+                </div>
+            </section>
+            
+            <section className="sec-space obj-width">
+                <h2>Trusted by Leading Global Brands</h2>
+                <p>Delivering results with the world’s most recognized companies</p>
+                
+                <div className="flex items-center flex-wrap justify-between pt-12">
+                    <img className="mt-12 mx-4 my-0" src={T1} alt="brand-1" />
+                    <img className="mt-12 mx-4 my-0" src={T2} alt="brand-2" />
+                    <img className="mt-12 mx-4 my-0" src={T3} alt="brand-3" />
+                    <img className="mt-12 mx-4 my-0" src={T4} alt="brand-4" />
+                    <img className="mt-12 mx-4 my-0" src={T5} alt="brand-5" />
                 </div>
             </section>
         </div>

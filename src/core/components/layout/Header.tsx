@@ -14,7 +14,7 @@ const Header = () => {
     const menu: MenuProps[] = [
         { label: "Home", url: "/" },
         { label: "Browse Jobs", url: "/" },
-        { label: "Contact", url: "/" },
+        { label: "Contact", url: "/contact" },
     ];
     
     const handleToggleMenu = () => {
